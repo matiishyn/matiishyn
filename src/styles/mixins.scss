@@ -1,0 +1,6 @@
+@import "src/styles/variables";
+
+@mixin centerPage {
+  max-width: $page-width;
+  margin: 0 auto;
+}

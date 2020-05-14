@@ -1,4 +1,5 @@
 @import "src/styles/variables";
+@import "src/styles/mixins";
 
 .header-component {
   //position: fixed;
@@ -9,8 +10,7 @@
   color: $main-text-color;
 
   & > div {
-    max-width: $page-width;
-    margin: auto;
+    @include centerPage;
     text-align: center;
 
     a {

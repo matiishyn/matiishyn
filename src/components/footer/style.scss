@@ -1,4 +1,5 @@
 @import "src/styles/variables";
+@import "src/styles/mixins";
 
 .footer-component {
   background-color: $footer-bg-color;
@@ -7,8 +8,7 @@
   margin-top: 30px;
 
   & > div {
+    @include centerPage;
     text-align: center;
-    max-width: $page-width;
-    margin: auto;
   }
 }
