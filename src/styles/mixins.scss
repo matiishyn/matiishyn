@@ -9,10 +9,13 @@
 // breakpoints - https://css-tricks.com/snippets/sass/mixin-manage-breakpoints/
 $breakpoints: (
   "mobile": (
-    max-width: 767px,
+    max-width: 576px,
   ),
   "tablet": (
-    max-width: 992px,
+    max-width: 767px,
+  ),
+  "ltablet": (
+    max-width: 1024px,
   ),
   "desktop": (
     max-width: 1200px,

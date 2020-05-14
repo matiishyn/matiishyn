@@ -36,6 +36,7 @@
       }
       h3 {
         font-size: 40px;
+        line-height: 1.5;
       }
 
       @include breakpoint('tablet') {
@@ -51,20 +52,21 @@
       }
       @include breakpoint('mobile') {
         h1 {
-          font-size: 50px;
+          font-size: 60px;
         }
         h2 {
           font-size: 30px;
         }
         h3 {
-          font-size: 20px;
+          font-size: 30px;
         }
       }
     }
   }
 
   .banner-img {
-    max-height: 90vh;
+    min-height: 400px;
+    height: 90vh;
     filter: brightness(90%);
   }
 }
