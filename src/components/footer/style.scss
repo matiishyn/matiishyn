@@ -1,0 +1,14 @@
+@import "src/styles/variables";
+
+.footer-component {
+  background-color: $footer-bg-color;
+  color: $footer-text-color;
+  padding: 20px;
+  margin-top: 30px;
+
+  & > div {
+    text-align: center;
+    max-width: $page-width;
+    margin: auto;
+  }
+}

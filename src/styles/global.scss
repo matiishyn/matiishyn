@@ -1,3 +1,15 @@
+@import "src/styles/variables";
+
+body {
+  color: $main-text-color;
+}
+
 a {
   text-shadow: none;
+  color: $main-text-color;
+  transition: .2s color;
+
+  &:hover {
+    color: $theme-color;
+  }
 }

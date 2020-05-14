@@ -1,20 +1,21 @@
+@import "src/styles/variables";
+
 .header-component {
   //position: fixed;
   top: 0;
   padding: 13px 0;
   background-color: #fff;
   box-shadow: 0 10px 33px rgba(0, 0, 0, 0.1);
-  color: #3c4858 !important;
+  color: $main-text-color;
 
   & > div {
-    width: 900px;
+    max-width: $page-width;
     margin: auto;
     text-align: center;
 
     a {
       text-decoration: none;
       background: none;
-      color: #3c4858;
       display: inline-block;
       margin: 0 30px;
       text-transform: uppercase;
