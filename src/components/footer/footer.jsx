@@ -3,7 +3,7 @@ import "./style.scss"
 
 const Footer = () => (
   <footer className="footer-component">
-    <div>Ivan Matiishyn - Full Stack JavaScript Developer</div>
+    <div>©{new Date().getFullYear()} copyright all right reserved</div>
   </footer>
 )
 

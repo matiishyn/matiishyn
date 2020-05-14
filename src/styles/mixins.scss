@@ -3,4 +3,5 @@
 @mixin centerPage {
   max-width: $page-width;
   margin: 0 auto;
+  padding: 0 15px;
 }

@@ -2,8 +2,11 @@
 @import "src/styles/mixins";
 
 .header-component {
-  //position: fixed;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
   padding: 13px 0;
   background-color: #fff;
   box-shadow: 0 10px 33px rgba(0, 0, 0, 0.1);
@@ -24,7 +27,21 @@
       letter-spacing: 2px;
 
       &.active {
-        border-bottom: 1px solid;
+        //border-bottom: 2px solid;
+        color: $theme-color;
+      }
+    }
+  }
+
+  &.transparent {
+    background: transparent;
+    box-shadow: none;
+
+    a {
+      color: #fff;
+
+      &:hover {
+        color: $theme-color;
       }
     }
   }

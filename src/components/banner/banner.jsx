@@ -1,6 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import "./style.scss"
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -13,7 +14,7 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-const Image = () => {
+const Banner = () => {
   const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(relativePath: { eq: "bg-main.jpg" }) {
@@ -26,7 +27,28 @@ const Image = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return (
+    <div className="banner-component-wrapper">
+      <Img
+        fluid={data.placeholderImage.childImageSharp.fluid}
+        className="banner-img"
+      />
+
+      <div className="banner-txt-wrapper">
+        <div className="banner-txt-inner">
+          <h2>Hi there,</h2>
+          <h1>
+            I'm <span className="name">Ivan Matiishyn</span>
+          </h1>
+          <h3>
+            <span className="code">&lt;Full Stack&gt;</span>{" "}
+            <span className="code">&#123;JavaScript&#125;</span>{" "}
+            Developer
+          </h3>
+        </div>
+      </div>
+    </div>
+  )
 }
 
-export default Image
+export default Banner

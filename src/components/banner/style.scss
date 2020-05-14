@@ -1,0 +1,47 @@
+@import "src/styles/variables";
+@import "src/styles/mixins";
+
+.banner-component-wrapper {
+  position: relative;
+
+  .banner-txt-wrapper {
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+
+    .banner-txt-inner {
+      @include centerPage;
+
+      h1,
+      h2,
+      h3 {
+        margin: 20px 0;
+        color: #fff;
+        span.name {
+          color: $theme-color;
+        }
+        span.code {
+          font-family: "Fira Code", Monaco, monospace;
+        }
+      }
+
+      h1 {
+        font-size: 100px;
+      }
+      h2 {
+        font-size: 50px;
+      }
+      h3 {
+        font-size: 40px;
+      }
+    }
+  }
+
+  .banner-img {
+    max-height: 90vh;
+    filter: brightness(90%);
+  }
+}
