@@ -6,11 +6,12 @@
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1;
   padding: 13px 0;
   background-color: #fff;
   box-shadow: 0 10px 33px rgba(0, 0, 0, 0.1);
   color: $main-text-color;
+  transition: all .3s;
+  z-index: 10;
 
   & > div {
     @include centerPage;
