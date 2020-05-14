@@ -37,6 +37,29 @@
       h3 {
         font-size: 40px;
       }
+
+      @include breakpoint('tablet') {
+        h1 {
+          font-size: 80px;
+        }
+        h2 {
+          font-size: 40px;
+        }
+        h3 {
+          font-size: 30px;
+        }
+      }
+      @include breakpoint('mobile') {
+        h1 {
+          font-size: 50px;
+        }
+        h2 {
+          font-size: 30px;
+        }
+        h3 {
+          font-size: 20px;
+        }
+      }
     }
   }
 
