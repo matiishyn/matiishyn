@@ -1,6 +1,6 @@
 {
   "name": "matiishyn",
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "personal website project",
   "version": "0.1.0",
   "author": "Ivan Matiishyn <ivan.matiyishyn@gmail.com>",
   "dependencies": {
@@ -21,7 +21,7 @@
     "prettier": "2.0.5"
   },
   "keywords": [
-    "gatsby"
+    "gatsby", "personal"
   ],
   "license": "MIT",
   "scripts": {
