@@ -1,0 +1,50 @@
+@import "src/styles/variables";
+@import "src/styles/mixins";
+
+.about-component {
+  .about-content {
+    display: flex;
+  }
+
+  .my-photo {
+    width: 400px;
+    position: relative;
+    overflow: visible !important;
+    margin: 0 20px 20px 0;
+
+    //z-index: 2;
+
+    img {
+      z-index: 2;
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      right: -20px;
+      bottom: -20px;
+      z-index: 1;
+      border: 2px solid $theme-color;
+    }
+  }
+
+  .about-description {
+    padding: 20px;
+    h3,
+    h4 {
+      margin: 0;
+      //line-height: 1.9;
+    }
+    h3 {
+      margin-bottom: 5px;
+    }
+    h4 {
+      margin-bottom: 20px;
+    }
+    p {
+      text-align: justify;
+    }
+  }
+}

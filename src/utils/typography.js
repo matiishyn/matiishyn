@@ -6,7 +6,7 @@ fairyGatesTheme.headerFontFamily = ["Raleway", "sans-serif"]
 fairyGatesTheme.googleFonts = [
   {
     name: "Raleway",
-    styles: ["700"],
+    styles: ["400", "700"],
   },
   {
     name: "Quattrocento Sans",
