@@ -7,7 +7,7 @@ body {
 a {
   text-shadow: none;
   color: $main-text-color;
-  transition: .2s color;
+  transition: 0.2s color;
 
   &:hover {
     color: $theme-color;
