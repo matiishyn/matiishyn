@@ -1,6 +1,7 @@
 import Typography from "typography"
 import fairyGatesTheme from "typography-theme-fairy-gates"
 
+fairyGatesTheme.baseFontSize = "18px";
 fairyGatesTheme.headerFontFamily = ["Raleway", "sans-serif"]
 
 fairyGatesTheme.googleFonts = [

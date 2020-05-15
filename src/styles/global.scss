@@ -43,3 +43,17 @@ h4 {
 .container {
   @include centerPage;
 }
+
+.btn {
+  border: 2px solid $theme-color;
+  background: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px 15px;
+  transition: background-color .3s;
+
+  &:hover {
+    background-color: $theme-color;
+  }
+}

@@ -5,12 +5,13 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react";
-import PropTypes from "prop-types";
-import { graphql, useStaticQuery } from "gatsby";
-import Header from "../header/header";
-import Footer from "../footer/footer";
-import "./style.scss";
+// import "../../utils/fontawesome"
+import React from "react"
+import PropTypes from "prop-types"
+import { graphql, useStaticQuery } from "gatsby"
+import Header from "../header/header"
+import Footer from "../footer/footer"
+import "./style.scss"
 
 const Layout = ({ children, headerTransparent }) => {
   const data = useStaticQuery(graphql`
@@ -25,7 +26,10 @@ const Layout = ({ children, headerTransparent }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} headerTransparent={headerTransparent} />
+      <Header
+        siteTitle={data.site.siteMetadata.title}
+        headerTransparent={headerTransparent}
+      />
       <div className="layout-body-wrapper">
         <main>{children}</main>
       </div>

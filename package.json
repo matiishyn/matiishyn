@@ -4,6 +4,10 @@
   "version": "0.1.0",
   "author": "Ivan Matiishyn <ivan.matiyishyn@gmail.com>",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-brands-svg-icons": "^5.13.0",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/react-fontawesome": "^0.1.9",
     "classnames": "^2.2.6",
     "gatsby": "^2.21.22",
     "gatsby-image": "^2.4.3",

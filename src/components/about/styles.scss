@@ -10,7 +10,7 @@
     width: 400px;
     position: relative;
     overflow: visible !important;
-    margin: 0 20px 20px 0;
+    margin: 0 30px 30px 0;
     img {
       z-index: 2;
     }
@@ -41,8 +41,28 @@
     }
     p {
       text-align: justify;
+      margin-bottom: 10px;
+    }
+
+    .contacts {
+      margin-bottom: 20px;
+      .contact-item {
+        display: block;
+        font-size: 16px;
+        margin-bottom: 5px;
+
+        svg {
+          font-size: 25px;
+          margin-right: 10px;
+          position: relative;
+          top: 3px;
+          color: $theme-color;
+          width: 30px;
+        }
+      }
     }
   }
+
   @include breakpointUpTo("ltablet") {
     .my-photo {
       width: 300px;

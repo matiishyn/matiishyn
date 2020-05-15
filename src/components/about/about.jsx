@@ -2,8 +2,10 @@ import React from "react"
 import "./styles.scss"
 import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
-
-const START_YEAR = 2013
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faLinkedin, faSkype } from "@fortawesome/free-brands-svg-icons"
+import { faAt } from "@fortawesome/free-solid-svg-icons"
+import { info } from "./data"
 
 export const About = () => {
   const data = useStaticQuery(graphql`
@@ -31,15 +33,26 @@ export const About = () => {
             />
           </div>
           <div className="about-description">
-            <h3>Hi, I'm Ivan Matiishyn</h3>
-            <h4>Full Stack JavaScript Developer</h4>
-            <p>
-              I'm a web developer with {new Date().getFullYear() - START_YEAR}+
-              years of professional expertise in the IT industry. I have rich
-              experience in building complex single page applications for
-              banking, e-commerce, healthcare, finance, management systems,
-              insurance as well as other solutions
-            </p>
+            <h3>{info.h3}</h3>
+            <h4>{info.h4}</h4>
+            <p>{info.p}</p>
+
+            <div className="contacts">
+              <a href={`skype:${info.skype}?chat`} className="contact-item">
+                <FontAwesomeIcon icon={faSkype} />
+                <span>{info.skype}</span>
+              </a>
+              <a href={`mailto:${info.email}`} className="contact-item">
+                <FontAwesomeIcon icon={faAt} />
+                <span>{info.email}</span>
+              </a>
+              <a href={info.liUrl} target="_blank" className="contact-item">
+                <FontAwesomeIcon icon={faLinkedin} />
+                <span>{info.liTitle}</span>
+              </a>
+            </div>
+
+            <button className="btn">Download CV</button>
           </div>
         </div>
       </div>

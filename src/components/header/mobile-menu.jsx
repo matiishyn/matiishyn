@@ -29,7 +29,6 @@ export const MobileMenu = ({ isOpen, menuItems, toggle }) => (
       </ul>
 
       <a
-        // href="#nav"
         className="nav__toggle"
         onClick={toggle}
         role="button"
