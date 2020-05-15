@@ -1,5 +1,9 @@
 .layout-body-wrapper {
   //max-width: 960px;
   //margin: auto;
+
+  &.with-padding {
+    padding-top: 52px;
+  }
 }
 

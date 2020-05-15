@@ -1,6 +1,10 @@
 @import "src/styles/variables";
 @import "src/styles/mixins";
 
+::selection {
+  background-color: lighten($theme-color, 30%);
+}
+
 body {
   color: $main-text-color;
 }

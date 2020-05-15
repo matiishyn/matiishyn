@@ -1,11 +1,14 @@
 import Layout from "../components/layout/layout"
 import SEO from "../components/seo"
 import React from "react"
+import { Experience } from "../components/experience/experience"
 
 const ResumePage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Resume</h1>
+    <div className="container">
+      <Experience />
+    </div>
   </Layout>
 )
 

@@ -5,12 +5,12 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-// import "../../utils/fontawesome"
 import React from "react"
 import PropTypes from "prop-types"
 import { graphql, useStaticQuery } from "gatsby"
 import Header from "../header/header"
 import Footer from "../footer/footer"
+import cx from 'classnames';
 import "./style.scss"
 
 const Layout = ({ children, headerTransparent }) => {
@@ -30,7 +30,7 @@ const Layout = ({ children, headerTransparent }) => {
         siteTitle={data.site.siteMetadata.title}
         headerTransparent={headerTransparent}
       />
-      <div className="layout-body-wrapper">
+      <div className={cx("layout-body-wrapper", { "with-padding": !headerTransparent })}>
         <main>{children}</main>
       </div>
       <Footer />
