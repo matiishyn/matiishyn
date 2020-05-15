@@ -7,6 +7,7 @@ export const services = [
                   created projects from scratch, 
                   established front-end architecture and successfully released them.
     `,
+    tags: ["react", "angular", "angular.js", "scss", "bootstrap"],
   },
   {
     title: "Full Stack Developer",
@@ -15,7 +16,8 @@ export const services = [
                   Node.js Apps with Express.js using 
                   MongoDB and SQL, Serverless Web Apps, 
                   ServerSideRendered Web Apps
-  `,
+    `,
+    tags: ["node", "express", "firebase", "next", "gatsby"],
   },
   {
     title: "Team Leader / Manager",
@@ -24,12 +26,15 @@ export const services = [
                   - Competence manager<br>
                   - Software Engineering manager<br>
                   - Interviewer<br>
-                  ` },
+                  `,
+    tags: ["teamlead"],
+  },
+
   {
     title: "Mentor / Teacher / Speaker",
     description: `- Mentor<br>
                   - Speaker<br>
                   - Course Creator<br>
-    `
+    `,
   },
 ]
