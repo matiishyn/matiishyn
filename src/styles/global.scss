@@ -8,6 +8,7 @@ a {
   text-shadow: none;
   color: $main-text-color;
   transition: 0.2s color;
+  background-image: none;
 
   &:hover {
     color: $theme-color;

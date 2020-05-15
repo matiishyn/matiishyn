@@ -22,7 +22,7 @@ $breakpoints: (
   ),
 ) !default;
 
-@mixin breakpoint($breakpoint) {
+@mixin breakpointUpTo($breakpoint) {
   // If the key exists in the map
   @if map-has-key($breakpoints, $breakpoint) {
     // Prints a media query based on the value

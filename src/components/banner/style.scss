@@ -39,7 +39,7 @@
         line-height: 1.5;
       }
 
-      @include breakpoint('tablet') {
+      @include breakpointUpTo('tablet') {
         h1 {
           font-size: 80px;
         }
@@ -50,7 +50,7 @@
           font-size: 30px;
         }
       }
-      @include breakpoint('mobile') {
+      @include breakpointUpTo('mobile') {
         h1 {
           font-size: 60px;
         }
