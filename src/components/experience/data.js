@@ -4,7 +4,7 @@ export const experience = [
     company: "EPAM Systems",
     location: "Ukraine, Lviv",
     dates: "Dec 2019 – Present",
-    description: `a key developer at the biggest IT Company at Ukraine`,
+    description: `a key developer at the biggest IT Company in Ukraine`,
   },
   {
     title: "Senior Software Developer / Team Lead",
