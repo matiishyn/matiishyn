@@ -52,7 +52,7 @@ export const About = () => {
               </a>
             </div>
 
-            <button className="btn">Download CV</button>
+            <a href="/ivan_matiishyn_resume.pdf" className="btn">Download CV</a>
           </div>
         </div>
       </div>
