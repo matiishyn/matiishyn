@@ -1,0 +1,49 @@
+@import "src/styles/variables";
+@import "src/styles/mixins";
+
+.services-component {
+  background-color: $dark-bg-color;
+  padding: 50px 0;
+  margin: 50px 0;
+
+  h1 {
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+
+  .services-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 80px;
+
+    .service {
+      padding: 55px 20px 20px;
+      box-shadow: 0 0 50px 5px #1112;
+      transition: all .3s ease;
+      position: relative;
+      //margin-bottom: 80px;
+      background: #fff;
+
+      h4 {
+        position: absolute;
+        padding: 25px 10px 10px 25px;
+        border: 2px solid $theme-color;
+        display: inline-block;
+        top: -10px;
+        left: -10px;
+        margin: 0;
+        color: $black-text-color;
+        font-weight: bold;
+      }
+
+      div {
+        font-size: 16px;
+        text-align: justify;
+      }
+
+      &:hover {
+        transform: translateY(-10px);
+      }
+    }
+  }
+}
