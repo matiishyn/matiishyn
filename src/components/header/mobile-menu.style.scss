@@ -87,7 +87,7 @@
   .menuicon {
     display: block;
     cursor: pointer;
-    color: white;
+    color: $theme-color;
 
     transform: rotate(0deg);
     transition: 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
