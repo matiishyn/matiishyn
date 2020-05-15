@@ -36,6 +36,10 @@
   }
 
   @include breakpointUpTo("mobile") {
+    // fix for mobile menu
+    height: 0;
+    padding: 0;
+
     & > nav#big-menu {
       display: none;
     }
