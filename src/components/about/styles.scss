@@ -11,13 +11,9 @@
     position: relative;
     overflow: visible !important;
     margin: 0 20px 20px 0;
-
-    //z-index: 2;
-
     img {
       z-index: 2;
     }
-
     &:after {
       content: "";
       position: absolute;
@@ -45,6 +41,32 @@
     }
     p {
       text-align: justify;
+    }
+  }
+  @include breakpointUpTo("ltablet") {
+    .my-photo {
+      width: 300px;
+    }
+  }
+
+  @include breakpointUpTo("tablet") {
+    .my-photo {
+      width: 200px;
+    }
+  }
+
+  @include breakpointUpTo("mobile") {
+    .about-content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .my-photo {
+      width: 100%;
+    }
+
+    .about-description {
+      padding: 20px 0;
     }
   }
 }
