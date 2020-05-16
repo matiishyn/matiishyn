@@ -85,6 +85,16 @@ export const skills = [
         experience: 3,
       },
       {
+        title: "SQL",
+        level: level.competent,
+        experience: 2,
+      },
+      {
+        title: "MongoDB",
+        level: level.competent,
+        experience: 2,
+      },
+      {
         title: "AWS Lambda",
         level: level.novice,
         experience: 1,
