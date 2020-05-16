@@ -3,9 +3,7 @@ import "./styles.scss"
 import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faLinkedin, faSkype } from "@fortawesome/free-brands-svg-icons"
-import { faAt } from "@fortawesome/free-solid-svg-icons"
-import { info } from "./data"
+import { info, social } from "./data"
 
 export const About = () => {
   const data = useStaticQuery(graphql`
@@ -38,21 +36,17 @@ export const About = () => {
             <p>{info.p}</p>
 
             <div className="contacts">
-              <a href={`skype:${info.skype}?chat`} className="contact-item">
-                <FontAwesomeIcon icon={faSkype} />
-                <span>{info.skype}</span>
-              </a>
-              <a href={`mailto:${info.email}`} className="contact-item">
-                <FontAwesomeIcon icon={faAt} />
-                <span>{info.email}</span>
-              </a>
-              <a href={info.liUrl} target="_blank" className="contact-item">
-                <FontAwesomeIcon icon={faLinkedin} />
-                <span>{info.liTitle}</span>
-              </a>
+              {social.map(el => (
+                <a href={el.url} target="_blank" className="contact-item">
+                  <FontAwesomeIcon icon={el.icon} />
+                  <span>{el.title}</span>
+                </a>
+              ))}
             </div>
 
-            <a href="/ivan_matiishyn_resume.pdf" className="btn">Download CV</a>
+            <a href="/ivan_matiishyn_resume.pdf" className="btn">
+              Download CV
+            </a>
           </div>
         </div>
       </div>

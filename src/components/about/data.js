@@ -1,3 +1,10 @@
+import {
+  faInstagram,
+  faLinkedin,
+  faSkype,
+} from "@fortawesome/free-brands-svg-icons"
+import { faAt } from "@fortawesome/free-solid-svg-icons"
+
 const START_YEAR = 2013
 
 export const info = {
@@ -8,8 +15,27 @@ export const info = {
               experience in building complex single page applications for
               banking, e-commerce, healthcare, finance, management systems,
               insurance as well as other solutions`,
-  skype: "ivan.matiyishyn",
-  email: "matiyishyn.ivan@gmail.com",
-  liUrl: "https://www.linkedin.com/in/matiishyn/",
-  liTitle: "/in/matiishyn/",
 }
+
+export const social = [
+  {
+    icon: faSkype,
+    title: "ivan.matiyishyn",
+    url: "skype:ivan.matiyishyn?chat",
+  },
+  {
+    icon: faAt,
+    title: "matiyishyn.ivan@gmail.com",
+    url: "mailto:matiyishyn.ivan@gmail.com",
+  },
+  {
+    icon: faLinkedin,
+    title: "/in/matiishyn",
+    url: "https://www.linkedin.com/in/matiishyn/",
+  },
+  {
+    icon: faInstagram,
+    title: "/i.matiishyn",
+    url: "https://www.instagram.com/i.matiishyn/",
+  },
+]
