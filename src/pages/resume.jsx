@@ -8,7 +8,7 @@ const ResumePage = () => (
   <Layout>
     <SEO title="Home" />
     <div className="container">
-      <div className="d-flex">
+      <div className="d-flex d-flex-column-tablet">
         <div className="col-3">
           <Experience />
         </div>

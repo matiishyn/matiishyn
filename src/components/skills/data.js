@@ -5,6 +5,13 @@ const level = {
   expert: 4,
 }
 
+export const levelLabel = {
+  [level.novice]: "novice",
+  [level.competent]: "competent",
+  [level.proficient]: "proficient",
+  [level.expert]: "expert",
+}
+
 export const skills = [
   {
     groupTitle: "front end",
@@ -36,6 +43,16 @@ export const skills = [
       },
       {
         title: "Angular",
+        level: level.proficient,
+        experience: 2,
+      },
+      {
+        title: "Next.js",
+        level: level.proficient,
+        experience: 2,
+      },
+      {
+        title: "Gatsby.js",
         level: level.proficient,
         experience: 2,
       },
@@ -83,6 +100,16 @@ export const skills = [
         title: "Firebase Functions",
         level: level.proficient,
         experience: 3,
+      },
+      {
+        title: "SSR Next.js",
+        level: level.proficient,
+        experience: 2,
+      },
+      {
+        title: "SSR Gatsby.js",
+        level: level.proficient,
+        experience: 2,
       },
       {
         title: "SQL",

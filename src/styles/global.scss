@@ -69,6 +69,11 @@ h4 {
 .d-flex {
   display: flex;
 }
+.d-flex-column-tablet {
+  @include breakpointUpTo("tablet") {
+    flex-direction: column;
+  }
+}
 .col-3 {
   flex: 3;
 }

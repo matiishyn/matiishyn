@@ -26,5 +26,25 @@
         }
       }
     }
+    div.react-tabs__tab-panel {
+      padding-top: 10px;
+    }
+  }
+
+  @include breakpointUpTo("ltablet") {
+    .skills-tabs {
+      ul.react-tabs__tab-list {
+        li.react-tabs__tab {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  @include breakpointUpTo("tablet") {
+
+  }
+
+  @include breakpointUpTo("mobile") {
   }
 }
