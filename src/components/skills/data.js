@@ -36,22 +36,22 @@ export const skills = [
       },
       {
         title: "Angular",
-        level: level.competent,
+        level: level.proficient,
         experience: 2,
       },
       {
         title: "Angular.js",
-        level: level.expert,
+        level: level.proficient,
         experience: 4,
       },
       {
         title: "Backbone.js",
-        level: level.competent,
+        level: level.proficient,
         experience: 2,
       },
       {
         title: "TypeScript",
-        level: level.competent,
+        level: level.proficient,
         experience: 3,
       },
       {
@@ -66,22 +66,22 @@ export const skills = [
     groupSkills: [
       {
         title: "Node.js",
-        level: level.competent,
+        level: level.proficient,
         experience: 4,
       },
       {
         title: "Express.js",
-        level: level.competent,
+        level: level.proficient,
         experience: 4,
       },
       {
         title: "Firebase DataBase",
-        level: level.competent,
+        level: level.proficient,
         experience: 3,
       },
       {
         title: "Firebase Functions",
-        level: level.competent,
+        level: level.proficient,
         experience: 3,
       },
       {
@@ -95,12 +95,12 @@ export const skills = [
         experience: 2,
       },
       {
-        title: "AWS Lambda",
-        level: level.novice,
+        title: "AWS Infrastructure",
+        level: level.competent,
         experience: 1,
       },
       {
-        title: "AWS Infrastructure",
+        title: "AWS Lambda",
         level: level.novice,
         experience: 1,
       },
@@ -111,12 +111,12 @@ export const skills = [
     groupSkills: [
       {
         title: "Team Lead",
-        level: level.competent,
+        level: level.proficient,
         experience: 4,
       },
       {
         title: "Agile scrum",
-        level: level.competent,
+        level: level.proficient,
         experience: 7,
       },
       {

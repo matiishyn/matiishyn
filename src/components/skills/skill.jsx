@@ -1,10 +1,19 @@
-import React from 'react';
+import React from "react"
+import "./skill.styles.scss"
 
-export const Skill = ({title, level, experience}) => (
+const MAX_LEVEL = 4
+
+export const Skill = ({ title, level, experience }) => (
   <div className="skill">
-    <span className="skill-title">{title}</span>
-    <span className="skill-level">{level}</span>
-    <span className="skill-experience">{experience}</span>
+    <h5 className="skill-title">{title}</h5>
+    <span className="skill-experience">{experience} years</span>
 
+    <div className="skill-bar">
+      <div
+        className="skill-bar-level"
+        style={{ width: `${(level * 100) / MAX_LEVEL - 3}%` }}
+      />
+      {/*{level}*/}
+    </div>
   </div>
-);
+)
