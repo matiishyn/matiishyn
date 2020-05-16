@@ -3,6 +3,7 @@ import "./styles.scss"
 import { skills } from "./data"
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs"
 import "react-tabs/style/react-tabs.css"
+import { Skill } from "./skill"
 
 const skillsTitles = skills.map(el => el.groupTitle)
 const skillsGroups = skills.map(el => el.groupSkills)
@@ -23,7 +24,12 @@ export const Skills = () => {
         {skillsGroups.map((group, ind) => (
           <TabPanel key={ind}>
             {group.map(skill => (
-              <p key={skill.title}>{skill.title}</p>
+              <Skill
+                key={skill.title}
+                title={skill.title}
+                experience={skill.experience}
+                level={skill.level}
+              />
             ))}
           </TabPanel>
         ))}
