@@ -1,15 +1,15 @@
-const level = {
+const skillLevel = {
   novice: 1,
   competent: 2,
   proficient: 3,
   expert: 4,
 }
 
-export const levelLabel = {
-  [level.novice]: "novice",
-  [level.competent]: "competent",
-  [level.proficient]: "proficient",
-  [level.expert]: "expert",
+export const skillLevelLabel = {
+  [skillLevel.novice]: "novice",
+  [skillLevel.competent]: "competent",
+  [skillLevel.proficient]: "proficient",
+  [skillLevel.expert]: "expert",
 }
 
 export const skills = [
@@ -18,62 +18,62 @@ export const skills = [
     groupSkills: [
       {
         title: "HTML/CSS",
-        level: level.expert,
+        level: skillLevel.expert,
         experience: 8,
       },
       {
         title: "SASS/SCSS, LESS",
-        level: level.expert,
+        level: skillLevel.expert,
         experience: 6,
       },
       {
         title: "Bootstrap",
-        level: level.expert,
+        level: skillLevel.expert,
         experience: 7,
       },
       {
         title: "JavaScript, ES6",
-        level: level.expert,
+        level: skillLevel.expert,
         experience: 8,
       },
       {
         title: "React.js/Redux",
-        level: level.expert,
+        level: skillLevel.expert,
         experience: 5,
       },
       {
         title: "Angular",
-        level: level.proficient,
+        level: skillLevel.proficient,
         experience: 2,
       },
       {
         title: "Next.js",
-        level: level.proficient,
+        level: skillLevel.proficient,
         experience: 2,
       },
       {
         title: "Gatsby.js",
-        level: level.proficient,
+        level: skillLevel.proficient,
         experience: 2,
       },
       {
         title: "Angular.js",
-        level: level.proficient,
+        level: skillLevel.proficient,
         experience: 4,
       },
       {
         title: "Backbone.js",
-        level: level.proficient,
+        level: skillLevel.proficient,
         experience: 2,
       },
       {
         title: "TypeScript",
-        level: level.proficient,
+        level: skillLevel.proficient,
         experience: 3,
       },
       {
         title: "Webpack/Gulp",
-        level: level.expert,
+        level: skillLevel.expert,
         experience: 5,
       },
     ],
@@ -83,52 +83,52 @@ export const skills = [
     groupSkills: [
       {
         title: "Node.js",
-        level: level.proficient,
+        level: skillLevel.proficient,
         experience: 4,
       },
       {
         title: "Express.js",
-        level: level.proficient,
+        level: skillLevel.proficient,
         experience: 4,
       },
       {
         title: "Firebase DataBase",
-        level: level.proficient,
+        level: skillLevel.proficient,
         experience: 3,
       },
       {
         title: "Firebase Functions",
-        level: level.proficient,
+        level: skillLevel.proficient,
         experience: 3,
       },
       {
         title: "SSR Next.js",
-        level: level.proficient,
+        level: skillLevel.proficient,
         experience: 2,
       },
       {
         title: "SSR Gatsby.js",
-        level: level.proficient,
+        level: skillLevel.proficient,
         experience: 2,
       },
       {
         title: "SQL",
-        level: level.competent,
+        level: skillLevel.competent,
         experience: 2,
       },
       {
         title: "MongoDB",
-        level: level.competent,
+        level: skillLevel.competent,
         experience: 2,
       },
       {
         title: "AWS Infrastructure",
-        level: level.competent,
+        level: skillLevel.competent,
         experience: 1,
       },
       {
         title: "AWS Lambda",
-        level: level.novice,
+        level: skillLevel.novice,
         experience: 1,
       },
     ],
@@ -138,19 +138,59 @@ export const skills = [
     groupSkills: [
       {
         title: "Team Lead",
-        level: level.proficient,
+        level: skillLevel.proficient,
         experience: 4,
       },
       {
         title: "Agile scrum",
-        level: level.proficient,
+        level: skillLevel.proficient,
         experience: 7,
       },
       {
         title: "Competence Manager",
-        level: level.proficient,
+        level: skillLevel.proficient,
         experience: 1,
       },
     ],
+  },
+]
+
+//
+// LANGUAGES
+//
+
+const langLevel = {
+  elementary: 1,
+  intermediate: 2,
+  upperIntermediate: 3,
+  advanced: 4,
+  native: 5,
+}
+
+
+export const langLevelLabel = {
+  [langLevel.elementary]: "elementary (A1)",
+  [langLevel.intermediate]: "intermediate (B1)",
+  [langLevel.upperIntermediate]: "upper-intermediate (B2)",
+  [langLevel.advanced]: "advanced (C1)",
+  [langLevel.native]: "native",
+}
+
+export const languages = [
+  {
+    title: "English",
+    level: langLevel.advanced,
+  },
+  {
+    title: "Polish",
+    level: langLevel.upperIntermediate,
+  },
+  {
+    title: "Russian",
+    level: langLevel.advanced,
+  },
+  {
+    title: "Ukrainian",
+    level: langLevel.native,
   },
 ]

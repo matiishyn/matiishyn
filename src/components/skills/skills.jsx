@@ -1,15 +1,19 @@
-import React, { useState } from "react"
+import React from "react"
 import "./styles.scss"
-import { skills } from "./data"
+import { skills, languages, skillLevelLabel, langLevelLabel } from "./data"
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs"
 import "react-tabs/style/react-tabs.css"
 import { Skill } from "./skill"
 
+// skills
 const skillsTitles = skills.map(el => el.groupTitle)
 const skillsGroups = skills.map(el => el.groupSkills)
+const maxSkillLevel = Object.values(skillLevelLabel).length
+
+// languages
+const maxLangLevel = Object.values(langLevelLabel).length
 
 export const Skills = () => {
-  const [blockVisible, setBlockVisible] = useState(1)
   return (
     <div className="skills-component">
       <h1 className="section-header">my skills</h1>
@@ -29,11 +33,24 @@ export const Skills = () => {
                 title={skill.title}
                 experience={skill.experience}
                 level={skill.level}
+                maxLevel={maxSkillLevel}
+                levelLabel={skillLevelLabel}
               />
             ))}
           </TabPanel>
         ))}
       </Tabs>
+
+      <h1 className="section-header">languages</h1>
+      {languages.map(lang => (
+        <Skill
+          key={lang.title}
+          title={lang.title}
+          level={lang.level}
+          maxLevel={maxLangLevel}
+          levelLabel={langLevelLabel}
+        />
+      ))}
     </div>
   )
 }
