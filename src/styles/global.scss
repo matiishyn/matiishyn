@@ -1,6 +1,7 @@
 @import "src/styles/variables";
 @import "src/styles/mixins";
 
+// global
 ::selection {
   background-color: lighten($theme-color, 30%);
 }
@@ -9,6 +10,7 @@ body {
   color: $main-text-color;
 }
 
+// typography
 a {
   text-shadow: none;
   color: $main-text-color;
@@ -43,10 +45,7 @@ h4 {
   font-weight: normal;
 }
 
-.container {
-  @include centerPage;
-}
-
+// components
 .btn {
   border: 2px solid $theme-color;
   background: #fff;
@@ -60,4 +59,19 @@ h4 {
     background-color: $theme-color;
     color: $main-text-color;
   }
+}
+
+// utils
+.container {
+  @include centerPage;
+}
+
+.d-flex {
+  display: flex;
+}
+.col-3 {
+  flex: 3;
+}
+.col-2 {
+  flex: 2;
 }
