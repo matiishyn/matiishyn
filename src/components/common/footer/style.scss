@@ -5,6 +5,7 @@
   background-color: $footer-bg-color;
   color: $footer-text-color;
   padding: 20px;
+  font-size: 16px;
 
   & > div {
     @include centerPage;

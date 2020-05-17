@@ -7,7 +7,7 @@ import { Education } from "../components/education/education"
 
 const ResumePage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Resume" />
     <div className="container">
       <div className="d-flex d-flex-column-tablet">
         <div className="col-3">

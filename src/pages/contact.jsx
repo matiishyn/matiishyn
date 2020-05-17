@@ -4,7 +4,7 @@ import React from "react"
 
 const ContactPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Contact" />
     <h1>Contact</h1>
   </Layout>
 )

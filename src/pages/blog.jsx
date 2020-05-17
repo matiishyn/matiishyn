@@ -4,7 +4,7 @@ import React from "react"
 
 const BlogPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Blog" />
     <h1>Blog</h1>
   </Layout>
 )
