@@ -2,6 +2,7 @@ import {
   faInstagram,
   faLinkedin,
   faSkype,
+  faGithub
 } from "@fortawesome/free-brands-svg-icons"
 import { faAt } from "@fortawesome/free-solid-svg-icons"
 
@@ -32,6 +33,11 @@ export const social = [
     icon: faLinkedin,
     title: "/in/matiishyn",
     url: "https://www.linkedin.com/in/matiishyn/",
+  },
+  {
+    icon: faGithub,
+    title: "/matiishyn",
+    url: "https://github.com/matiishyn",
   },
   {
     icon: faInstagram,
