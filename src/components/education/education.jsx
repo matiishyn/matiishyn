@@ -1,13 +1,13 @@
 import React from "react"
 import "../common/chronology/styles.scss"
-import { experience } from "./data"
+import { education } from "./data"
 import { Chronology } from "../common/chronology/chronology"
 
-export const Experience = () => {
+export const Education = () => {
   return (
     <div className="experience-component">
-      <h1 className="section-header">my experience</h1>
-      <Chronology chronology={experience} />
+      <h1 className="section-header">education</h1>
+      <Chronology chronology={education} />
     </div>
   )
 }

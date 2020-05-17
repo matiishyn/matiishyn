@@ -2,7 +2,8 @@ import Layout from "../components/common/layout/layout"
 import SEO from "../components/common/seo"
 import React from "react"
 import { Experience } from "../components/experience/experience"
-import { Skills } from "../components/skills/skills";
+import { Skills } from "../components/skills/skills"
+import { Education } from "../components/education/education"
 
 const ResumePage = () => (
   <Layout>
@@ -11,9 +12,10 @@ const ResumePage = () => (
       <div className="d-flex d-flex-column-tablet">
         <div className="col-3">
           <Experience />
+          <Education />
         </div>
         <div className="col-2">
-          <Skills/>
+          <Skills />
         </div>
       </div>
     </div>
