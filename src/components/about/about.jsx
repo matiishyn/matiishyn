@@ -37,7 +37,13 @@ export const About = () => {
 
             <div className="contacts">
               {social.map(el => (
-                <a href={el.url} target="_blank" className="contact-item">
+                <a
+                  key={el.title}
+                  href={el.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="contact-item"
+                >
                   <FontAwesomeIcon icon={el.icon} />
                   <span>{el.title}</span>
                 </a>
