@@ -1,5 +1,5 @@
-import Layout from "../components/layout/layout"
-import SEO from "../components/seo"
+import Layout from "../components/common/layout/layout"
+import SEO from "../components/common/seo"
 import React from "react"
 
 const BlogPage = () => (
