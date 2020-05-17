@@ -14,29 +14,11 @@
   // ---------------------------
 
   .nav {
-    padding-top: 80px;
+    max-height: 1px;
     // Toggle Button
-    &__toggle {
-      display: inline-block;
-      position: absolute;
-      z-index: 10;
-      padding: 0;
-      border: 0;
-      background: transparent;
-      outline: 0;
-      right: 15px;
-      top: 15px;
-      cursor: pointer;
-      border-radius: 50%;
-      transition: background-color 0.15s linear;
-
-      &:hover,
-      &:focus {
-        background-color: rgba(0, 0, 0, 0.5);
-      }
-    }
 
     &__menu {
+      transform: translateY(80px);
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -47,6 +29,7 @@
       margin: 0;
       height: 100%;
       list-style: none;
+      transition: all 0.3s;
     }
 
     &__item {
@@ -77,6 +60,26 @@
         outline: 0;
         background-color: rgba(0, 0, 0, 0.2);
       }
+    }
+  }
+
+  .nav__toggle {
+    display: inline-block;
+    position: absolute;
+    z-index: 10;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    outline: 0;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.15s linear;
+
+    &:hover,
+    &:focus {
+      background-color: rgba(0, 0, 0, 0.5);
     }
   }
 
@@ -152,6 +155,7 @@
 
   .nav:target,
   .nav--open {
+    height: 100%;
     //scale the background circle to full size
     > .splash::after {
       transform: scale(1);
