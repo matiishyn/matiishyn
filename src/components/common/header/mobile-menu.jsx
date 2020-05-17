@@ -6,7 +6,7 @@ import "./mobile-menu.style.scss"
 // https://codepen.io/mxbck/pen/xdaGNL
 
 export const MobileMenu = ({ isOpen, menuItems, toggle }) => (
-  <div id="mobile-menu-wrapper">
+  <div id="mobile-menu-wrapper" className={cx({ "wrapper--open": isOpen })}>
     <a
       className="nav__toggle"
       onClick={toggle}

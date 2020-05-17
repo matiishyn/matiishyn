@@ -114,6 +114,26 @@
     }
   }
 
+  //animate the menu icon
+  &.wrapper--open .nav__toggle .menuicon{
+    color: white;
+    transform: rotate(180deg);
+
+    &__circle {
+      stroke-dashoffset: 0;
+    }
+    &__bar:nth-child(1),
+    &__bar:nth-child(4) {
+      opacity: 0;
+    }
+    &__bar:nth-child(2) {
+      transform: rotate(45deg);
+    }
+    &__bar:nth-child(3) {
+      transform: rotate(-45deg);
+    }
+  }
+
   // ---------------------------
   // Circular Splash Background
   // ---------------------------
@@ -159,26 +179,6 @@
     //scale the background circle to full size
     > .splash::after {
       transform: scale(1);
-    }
-
-    //animate the menu icon
-    .menuicon {
-      color: white;
-      transform: rotate(180deg);
-
-      &__circle {
-        stroke-dashoffset: 0;
-      }
-      &__bar:nth-child(1),
-      &__bar:nth-child(4) {
-        opacity: 0;
-      }
-      &__bar:nth-child(2) {
-        transform: rotate(45deg);
-      }
-      &__bar:nth-child(3) {
-        transform: rotate(-45deg);
-      }
     }
 
     //show the nav items
