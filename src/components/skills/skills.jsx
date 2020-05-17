@@ -3,7 +3,7 @@ import "./styles.scss"
 import { skills, languages, skillLevelLabel, langLevelLabel } from "./data"
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs"
 import "react-tabs/style/react-tabs.css"
-import { Skill } from "./skill"
+import { Skill } from "../common/skill/skill"
 
 // skills
 const skillsTitles = skills.map(el => el.groupTitle)
