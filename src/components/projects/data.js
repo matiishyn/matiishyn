@@ -1,3 +1,6 @@
+// customerFlag is a 2-letter country code (ISO)
+// https://www.worldatlas.com/aatlas/ctycodes.htm
+
 export const projects = [
   {
     title: "INTRANET NEWS PORTAL",
@@ -6,6 +9,7 @@ export const projects = [
     projectDescription:
       "Intranet portal aimed to spread the news across the company with tens of thousands daily visitors",
     customer: "The largest insurance company in the United States",
+    customerFlag: "us",
     duration: "6 months",
     role: "Senior Full-Stack Developer",
     responsibilities: `	
@@ -14,15 +18,16 @@ export const projects = [
 `,
     team: "10 team members",
     techStack:
-      "Sharepoint Online, Next.js, Server-side rendering, React.js, NodeJS, Express.js, SASS, Azure",
+      "Sharepoint Online, Next.js, SSR, React.js, Node.js, Express.js, SASS, Azure",
   },
 
   {
     title: "JOB POSTING WEB APP",
     subTitle: "Team Lead | Next.js, React.js, Node.js",
     projectDescription:
-      "A small responsive web app that allows you to find and apply to a job posting. Implemented with Next.js, Server-side rendering, styled with Bootstrap 4 and SCSS, deployed to Heroku as a testing environment",
+      "A small responsive web app that allows you to find and apply to a job posting. Implemented with Next.js, SSR, styled with Bootstrap 4 and SCSS, deployed to Heroku as a testing environment",
     customer: "Netherlands based startup",
+    customerFlag: "nl",
     duration: "3 months",
     role: "Lead Full-Stack Developer",
     responsibilities: `	
@@ -32,7 +37,7 @@ export const projects = [
 `,
     team: "3 team members",
     techStack:
-      "Next.js, Server-side rendering, React.js, NodeJS, Express.js, SASS, Bootstrap, JIRA, Jenkins, Webpack",
+      "Next.js, SSR, React.js, Node.js, Express.js, SASS, Bootstrap, JIRA, Jenkins, Webpack",
   },
 
   {
@@ -41,6 +46,7 @@ export const projects = [
     projectDescription:
       "The project allows you to get the live streaming from one a telescope around the globe. Apart from that, it has many other interesting features like communication with astronomers, different clubs and others",
     customer: "US company",
+    customerFlag: "us",
     duration: "6 months",
     role: "Lead Front-end Developer",
     responsibilities: `	I joined an ongoing project as a team leader to help to speed up development, refactor project architecture and implementing new functionality. Other responsibilities:
@@ -59,6 +65,7 @@ export const projects = [
     projectDescription:
       "The project’s aim was to build a web application for managing and creating projects, users, tasks and different flow for every project.",
     customer: "US company",
+    customerFlag: "us",
     duration: "16 months",
     role: "Lead Front-end Developer",
     responsibilities: `	- Investigating and implementing front-end technical solutions <br>
@@ -78,6 +85,7 @@ export const projects = [
     projectDescription:
       "The project’s aim is to build a web application which can be a custom website for every customer using his own access code.  Project is written with Angular and fully integrated with Google Firebase",
     customer: "US based startup",
+    customerFlag: "us",
     duration: "10 months",
     role: "Lead Full-Stack Developer",
     responsibilities: `	- Investigating and implementing front-end technical solutions <br>
@@ -87,7 +95,7 @@ export const projects = [
   `,
     team: "10 team members",
     techStack:
-      "Angular, TypeScript, Bootstrap 4, SASS, Google Maps, Firebase, Trello",
+      "Firebase database, Firebase Functions, Angular, TypeScript, Bootstrap 4, SASS, Google Maps, Firebase, Trello",
   },
 
   {
@@ -96,6 +104,7 @@ export const projects = [
     projectDescription:
       "The main goal of the application is to assist the process for individuals and businesses in obtaining tourist, student and work (both non-immigrant and immigrant) visa to the United States.  An essential part of the system is the filling and processing of the various visa applications. The application is integrated with several external services to provide document e-signing, payments and accounting, meetings scheduling, live chat, checking case statuses, fax, voice calls, and two-factor authentication.",
     customer: "US company",
+    customerFlag: "us",
     duration: "6 months",
     role: "Lead Front-end Developer",
     responsibilities: `	- Creating Project Architecture from scratch; <br>
@@ -105,9 +114,7 @@ export const projects = [
   - SEO optimizations; <br>
 `,
     team: "14 team members",
-    techStack: `The system contains 3 web applications:
-  - public website - Angular 2 Universal (Server Side rendering), TypeScript, SASS, SEO Optimization, NodeJS, ExpressJS, Webpack, Jenkins, 
-- customer and internal portal - AngularJS 1.6.x, Webpack, ES6+, TypeScript, Gulp, SASS`,
+    techStack: `Angular 2 SSR, TypeScript, SASS, SEO Optimization, Node.js, ExpressJS, Webpack, Jenkins, Angular.js 1.6.x, Webpack, ES6+, TypeScript, Gulp, SASS`,
   },
 
   {
@@ -116,6 +123,7 @@ export const projects = [
     projectDescription:
       "A new e-commerce website from scratch with 8 mln unique visitors per month.  Started the application from scratch, configured server rendering, Redux store, React routing, building and deployment processes",
     customer: "US company",
+    customerFlag: "us",
     duration: "3 months",
     role: "Senior Full-Stack Developer",
     responsibilities: `	- Creating Project Architecture from scratch; <br>
@@ -126,7 +134,7 @@ export const projects = [
 `,
     team: "5-8 team members",
     techStack:
-      "JavaScript (ES2016, JSX), NodeJS (Express), Universal (Isomorphic) React/Redux application, HTML5, CSS3, React, Redux, NodeJS, ExpressJS, SASS",
+      "JavaScript (ES2016 JSX), Node.js, Express.js, React.js, Redux, HTML5, CSS3, SASS",
   },
 
   {
@@ -138,10 +146,11 @@ export const projects = [
 - Firebase Database <br>
 - Firebase Storage <br>
 - Firebase Auth <br>
-- Firebase Functions as a Server-side written in NodeJS <br>
+- Firebase Functions as a Server-side written in Node.js <br>
 - Website Scrapper <br>
 - Keen Analytics`,
     customer: "US based startup",
+    customerFlag: "us",
     duration: "12 months",
     role: "Lead Full-Stack Developer",
     responsibilities: `	- Creating Project Architecture <br>
@@ -151,7 +160,7 @@ export const projects = [
   `,
     team: "4-6 team members",
     techStack:
-      "Bootstrap, SASS, AngularJS, Bower, GulpJS, Trello, FirebaseDB, Firebase Storage, Firebase Auth, Firebase Functions",
+      "Bootstrap, SASS, Angular.js, Bower, GulpJS, Trello, FirebaseDB, Firebase Storage, Firebase Auth, Firebase Functions",
   },
 
   {
@@ -163,6 +172,7 @@ export const projects = [
 - OB&AO process for Sole Traders, Limited Companies and Simple Partnerships; <br>
 Supported products – deposits and current accounts.`,
     customer: "One of the largest financial companies in the world",
+    customerFlag: "uk",
     duration: "6 months",
     role: "Senior Front-end Developer",
     responsibilities: `	- Architecture design; <br>
@@ -181,6 +191,7 @@ Supported products – deposits and current accounts.`,
     projectDescription:
       "Full featured web shop that had listing of all products with filtering and sorting, different categories of products and full cycle of ordering with user’s personal page that stores all ordering history and addresses. The application is integrated with payment system, video resources and social networks. Search Engine Optimizations (SEO) are made for searching platforms and social networks.",
     customer: "Netherlands based startup",
+    customerFlag: "nl",
     duration: "9 months",
     role: "Lead Front-end developer",
     responsibilities: `	- Designing UX solutions and creating user-friendly UI; <br>
@@ -191,7 +202,7 @@ Supported products – deposits and current accounts.`,
   `,
     team: "3-5 team members",
     techStack:
-      "JavaScript, MEAN Stack, HTML5, CSS3, Bootstrap, LESS, Responsive Design, AngularJS, jQuery, Underscore, Gulp, Bower, Node.js, Express, MongoDB",
+      "JavaScript, MEAN Stack, HTML5, CSS3, Bootstrap, LESS, Responsive Design, Angular.js, jQuery, Underscore, Gulp, Bower, Node.js, Express, MongoDB",
   },
 
   {
@@ -200,6 +211,7 @@ Supported products – deposits and current accounts.`,
     projectDescription:
       "The project’s aim was to analyze activities in different social networks (Facebook, Twitter, and YouTube) of several biggest banks in the UK. The application also analyzed content and defined level of user’s attitude, whether it’s positive or negative. We started application from the design phase and I took part in creating application based on User Experience.",
     customer: "British multinational bank headquartered in London",
+    customerFlag: "uk",
     duration: "6 months",
     role: "Front-end Developer",
     responsibilities: `	- Designing UX solutions and creating user-friendly UI; <br>
@@ -209,7 +221,7 @@ Supported products – deposits and current accounts.`,
   `,
     team: "6 team members",
     techStack:
-      "JavaScript, HTML5, CSS3, Bootstrap, LESS, Responsive Design, AngularJS, jQuery, Underscore, Node.js, Grunt, Bower, JIRA",
+      "JavaScript, HTML5, CSS3, Bootstrap, LESS, Responsive Design, Angular.js, jQuery, Underscore, Node.js, Grunt, Bower, JIRA",
   },
 
   {
@@ -218,6 +230,7 @@ Supported products – deposits and current accounts.`,
     projectDescription:
       "Web-application for banks customers which helped to manage affiliations and investments. One of the main application features is the whole cycle of approvals by line managers and central compliance managers. During this process a manager could create dialogs with anyone for private communication.",
     customer: "British multinational bank headquartered in London",
+    customerFlag: "uk",
     duration: "5 months",
     role: "Front-end developer",
     responsibilities: `	- Web application development; <br>
@@ -228,7 +241,7 @@ Supported products – deposits and current accounts.`,
   `,
     team: "10-12 team members",
     techStack:
-      "JavaScript, HTML5, CSS3, Bootstrap, LESS, AngularJS, jQuery, Underscore, Grunt, Bower, Karma, Jasmine, JIRA",
+      "JavaScript, HTML5, CSS3, Bootstrap, LESS, Angular.js, jQuery, Underscore, Grunt, Bower, Karma, Jasmine, JIRA",
   },
 
   {
@@ -238,6 +251,7 @@ Supported products – deposits and current accounts.`,
       "The project’s aim was to provide customers with advanced tools to identify, measure, resolve and prevent denials from third party insurances. This application was later integrated with complex set of applications that helped to manage all points of connections between hospitals and insurance companies, enhancing their overall experience from scheduling to billing.",
     customer:
       "U.S.-based company that provides software solutions for hospitals and healthcare facilities",
+    customerFlag: "us",
     duration: "8 months",
     role: "Lead Front-end developer",
     responsibilities: `	- Leading front-end team; <br>
@@ -257,6 +271,7 @@ Supported products – deposits and current accounts.`,
     projectDescription:
       "Web-based solution for tracking support requests for enterprises and educational institutions.",
     customer: "U.S.-based company",
+    customerFlag: "us",
     duration: "3 months",
     role: "Software Developer",
     responsibilities: `	
@@ -276,6 +291,7 @@ Supported products – deposits and current accounts.`,
     projectDescription:
       "Using E-Commerce Platform Software I took part in creating online stores. The platform had already set up and integrated features such as: payment process, ordering, client’s personal pages, administrative panels. Our responsibility was to create application based on new designs and fixing logical flow of different processes.",
     customer: "U.S.-based company",
+    customerFlag: "us",
     duration: "3 months",
     role: "Software Developer",
     responsibilities: `	- Web application development; <br>

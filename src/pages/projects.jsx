@@ -9,9 +9,7 @@ import { Projects } from "../components/projects/projects"
 const ProjectsPage = () => (
   <Layout>
     <SEO title="Projects" />
-    <div className="container">
-      <Projects />
-    </div>
+    <Projects />
   </Layout>
 )
 
