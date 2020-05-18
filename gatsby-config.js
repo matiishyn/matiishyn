@@ -26,16 +26,15 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Ivan Matiishyn | JavaScript Developer`,
-        short_name: `starter`,
+        short_name: `Ivan Matiishyn | JavaScript Developer`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#e54b4b`,
+        theme_color: `#e54b4b`,
         display: `minimal-ui`,
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    // https://gatsby.dev/offline
+    `gatsby-plugin-offline`,
   ],
 }
