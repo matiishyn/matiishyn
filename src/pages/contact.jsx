@@ -5,7 +5,10 @@ import React from "react"
 const ContactPage = () => (
   <Layout>
     <SEO title="Contact" />
-    <h1>Contact</h1>
+    <div className="container">
+      <h1 className="section-header">contact</h1>
+      <p>this section is not ready yet...</p>
+    </div>
   </Layout>
 )
 

@@ -5,7 +5,10 @@ import React from "react"
 const BlogPage = () => (
   <Layout>
     <SEO title="Blog" />
-    <h1>Blog</h1>
+    <div className="container">
+      <h1 className="section-header">blog</h1>
+      <p>this section is not ready yet...</p>
+    </div>
   </Layout>
 )
 
