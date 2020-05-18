@@ -9,7 +9,7 @@ export const projects = [
     projectDescription:
       "Intranet portal aimed to spread the news across the company with tens of thousands daily visitors",
     customer: "The largest insurance company in the United States",
-    customerFlag: "us",
+    customerFlag: "uk",
     duration: "6 months",
     role: "Senior Full-Stack Developer",
     responsibilities: `	
