@@ -1,9 +1,12 @@
-.layout-body-wrapper {
-  //max-width: 960px;
-  //margin: auto;
+@import "../../../styles/variables";
+@import "../../../styles/mixins";
 
+.layout-body-wrapper {
   &.with-padding {
     padding-top: 52px;
+
+    @include breakpointUpTo("mobile") {
+      padding-top: 0;
+    }
   }
 }
-
