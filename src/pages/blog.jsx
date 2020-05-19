@@ -10,7 +10,7 @@ export default ({ data }) => {
       <SEO title="Blog" />
       <div className="container">
         <h1 className="section-header">blog</h1>
-        <Dump data={data} />
+        {/*<Dump data={data} />*/}
         {data.allMdx.nodes.map(({ id, excerpt, frontmatter, fields }) => (
           <>
             <Link to={fields.slug}>
