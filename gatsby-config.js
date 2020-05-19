@@ -36,5 +36,20 @@ module.exports = {
     },
     // https://gatsby.dev/offline
     `gatsby-plugin-offline`,
+
+    // blog
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [`.mdx`, `.md`],
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/posts`,
+        name: `posts`,
+      },
+    },
   ],
 }
