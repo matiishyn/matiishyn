@@ -19,6 +19,7 @@ function SEO({ description, lang, meta, title }) {
             title
             description
             author
+            image
           }
         }
       }
@@ -39,6 +40,20 @@ function SEO({ description, lang, meta, title }) {
           name: `description`,
           content: metaDescription,
         },
+        // <!-- Google / Search Engine Tags -->
+        {
+          itemprop: `name`,
+          content: title,
+        },
+        {
+          itemprop: `description`,
+          content: metaDescription,
+        },
+        {
+          itemprop: `image`,
+          content: site.siteMetadata.image,
+        },
+        // <!-- Facebook Meta Tags -->
         {
           property: `og:title`,
           content: title,
@@ -52,8 +67,17 @@ function SEO({ description, lang, meta, title }) {
           content: `website`,
         },
         {
+          property: `og:image`,
+          content: site.siteMetadata.image,
+        },
+        // <!-- Twitter Meta Tags -->
+        {
+          name: `twitter:image`,
+          content: site.siteMetadata.image,
+        },
+        {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
         },
         {
           name: `twitter:creator`,
