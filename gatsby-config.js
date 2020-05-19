@@ -3,7 +3,7 @@ module.exports = {
     title: `Ivan Matiishyn - JavaScript Developer`,
     description: `Ivan Matiishyn - Full Stack JavaScript Developer`,
     author: `ivan.matiishyn@gmail.com`,
-    image: "/me_small.jpg", // Path to your image you placed in the 'static' folder
+    image: "me_small.jpg", // Path to your image you placed in the 'static' folder
   },
   plugins: [
     {
