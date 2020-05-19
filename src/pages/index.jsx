@@ -7,7 +7,7 @@ import { Services } from "../components/services/services"
 
 const IndexPage = () => (
   <Layout headerTransparent>
-    <SEO title="About" />
+    <SEO title="Ivan Matiishyn" />
     <Banner />
     <About />
     <Services />

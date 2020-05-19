@@ -10,7 +10,7 @@ const nav = [
   { to: "/resume", title: "Resume" },
   { to: "/projects", title: "Projects" },
   { to: "/blog", title: "Blog" },
-  { to: "/contact", title: "Contact" },
+  // { to: "/contact", title: "Contact" },
 ]
 
 class Header extends React.Component {
