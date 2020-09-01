@@ -3,6 +3,22 @@
 
 export const projects = [
   {
+    title: "E-COMMERCE PROJECT",
+    subTitle:
+      "...",
+    projectDescription:
+      "...",
+    customer: "...",
+    customerFlag: "de",
+    duration: "5 months",
+    role: "Senior Back-end Developer",
+    responsibilities: `...`,
+    team: "10 team members",
+    techStack:
+      "Node.js, Express.js, TypeScript, AWS, Lambda, PostgreSQL, AWS Aurora",
+  },
+
+  {
     title: "INTRANET NEWS PORTAL",
     subTitle:
       "Senior Developer | Sharepoint Online, Next.js, React.js, Node.js, Express.js, TypeScript",
@@ -18,7 +34,7 @@ export const projects = [
 `,
     team: "10 team members",
     techStack:
-      "Sharepoint Online, Next.js, SSR, React.js, Node.js, Express.js, SASS, Azure",
+      "Sharepoint Online, TypeScript, React.js, Next.js, SSR,  Node.js, Express.js, SASS, Azure",
   },
 
   {
