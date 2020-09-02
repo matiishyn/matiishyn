@@ -50,7 +50,7 @@ export const About = () => {
               ))}
             </div>
 
-            <a href="/ivan_matiishyn_resume.pdf" className="btn">
+            <a target="_blank" href="/ivan_matiishyn_resume.pdf" className="btn">
               Download CV
             </a>
           </div>
