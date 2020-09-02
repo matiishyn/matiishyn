@@ -194,3 +194,23 @@ export const languages = [
     level: langLevel.native,
   },
 ]
+
+export const certifications = [
+  {
+    title: "AWS Certified Solutions Architect Associate",
+    dates: "2020",
+  },
+  {
+    title: "Microsoft: Programming in HTML5 with JavaScript and CSS3",
+    dates: "2015",
+  },
+  {
+    title: "Microsoft: Microsoft Certified Professional",
+    dates: "2015",
+  },
+  {
+    title: "Prometric: CIW JavaScript Specialist",
+    dates: "2014",
+  },
+]
+
