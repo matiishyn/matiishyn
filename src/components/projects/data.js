@@ -287,7 +287,7 @@ Supported products – deposits and current accounts.`,
     projectDescription:
       "Web-based solution for tracking support requests for enterprises and educational institutions.",
     customer: "U.S.-based company",
-    customerFlag: "us",
+    customerFlag: "cz",
     duration: "3 months",
     role: "Software Developer",
     responsibilities: `	
@@ -307,7 +307,7 @@ Supported products – deposits and current accounts.`,
     projectDescription:
       "Using E-Commerce Platform Software I took part in creating online stores. The platform had already set up and integrated features such as: payment process, ordering, client’s personal pages, administrative panels. Our responsibility was to create application based on new designs and fixing logical flow of different processes.",
     customer: "U.S.-based company",
-    customerFlag: "us",
+    customerFlag: "ro",
     duration: "3 months",
     role: "Software Developer",
     responsibilities: `	- Web application development; <br>
