@@ -11,7 +11,7 @@ const START_YEAR = 2013
 export const info = {
   h3: "Hi, I'm Ivan Matiishyn",
   h4: "Full Stack JavaScript Developer",
-  p: `I'm a web developer with ${new Date().getFullYear() - START_YEAR}+
+  p: `I'm a web developer with ${new Date().getFullYear() - START_YEAR + 1}
               years of professional expertise in the IT industry. I have rich
               experience in building complex single page applications for
               banking, e-commerce, healthcare, finance, management systems,
