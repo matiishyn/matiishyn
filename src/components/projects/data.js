@@ -3,6 +3,22 @@
 
 export const projects = [
   {
+    title: "PRODUCTIVITY TOOL WEB APP",
+    subTitle:
+      "...",
+    projectDescription:
+      "...",
+    customer: "...",
+    customerFlag: "us",
+    duration: "4 months",
+    role: "Senior Full-Stack Developer",
+    responsibilities: `...`,
+    team: "4 team members",
+    techStack:
+      "React.js, Node.js, GraphQL, MongoDB, MobX, Apollo",
+  },
+
+  {
     title: "E-COMMERCE PROJECT",
     subTitle:
       "...",
@@ -10,12 +26,12 @@ export const projects = [
       "...",
     customer: "...",
     customerFlag: "de",
-    duration: "5 months",
-    role: "Senior Back-end Developer",
+    duration: "6 months",
+    role: "Senior Full-Stack Developer",
     responsibilities: `...`,
     team: "10 team members",
     techStack:
-      "Node.js, Express.js, TypeScript, AWS, Lambda, PostgreSQL, AWS Aurora",
+      "React.js, Redux, Node.js, Express.js, TypeScript, AWS, Lambda, PostgreSQL, AWS Aurora",
   },
 
   {
