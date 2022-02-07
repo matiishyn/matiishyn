@@ -1,8 +1,10 @@
+import { START_YEAR } from "../about/data"
+
 export const services = [
   {
     title: "Front End Developer",
     description: `My primary skill is front end development<br>
-                  I’ve been doing it for 8 years.
+                  I’ve been doing it for ${new Date().getFullYear() - START_YEAR + 1} years.
                   Took part in different project phases, 
                   created projects from scratch, 
                   established front-end architecture and successfully released them.

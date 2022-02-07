@@ -17,39 +17,44 @@ export const skills = [
     groupTitle: "front end",
     groupSkills: [
       {
-        title: "HTML/CSS",
+        title: "HTML5/CSS3",
         level: skillLevel.expert,
-        experience: 8,
+        experience: [2013,2014,2015,2016,2017,2018,2019,2020,2021],
       },
       {
-        title: "SASS/SCSS, LESS",
+        title: "SASS/SCSS",
         level: skillLevel.expert,
-        experience: 6,
+        experience: [2012,2013,2014,2015,2016,2017,2018,2019,2020,2021],
       },
       {
         title: "Bootstrap",
         level: skillLevel.expert,
-        experience: 7,
+        experience: [2013,2014,2015,2016,2017,2018,2019,2020,2021],
       },
       {
         title: "JavaScript, ES6",
         level: skillLevel.expert,
-        experience: 8,
+        experience: [2012,2013,2014,2015,2016,2017,2018,2019,2020,2021],
       },
       {
-        title: "React.js/Redux",
+        title: "React.js ecosystem",
         level: skillLevel.expert,
-        experience: 5,
+        experience: [2015,2016,2017,2018,2019,2020,2021],
+      },
+      {
+        title: "TypeScript",
+        level: skillLevel.expert,
+        experience: [2017,2018,2019,2020,2021],
+      },
+      {
+        title: "Next.js",
+        level: skillLevel.expert,
+        experience: [2018,2019,2020,2021],
       },
       {
         title: "Angular",
         level: skillLevel.proficient,
-        experience: 2,
-      },
-      {
-        title: "Next.js",
-        level: skillLevel.proficient,
-        experience: 2,
+        experience: [2014,2015,2016],
       },
       {
         title: "Gatsby.js",
@@ -65,11 +70,6 @@ export const skills = [
         title: "Backbone.js",
         level: skillLevel.proficient,
         experience: 2,
-      },
-      {
-        title: "TypeScript",
-        level: skillLevel.proficient,
-        experience: 3,
       },
       {
         title: "Webpack/Gulp",
@@ -137,14 +137,14 @@ export const skills = [
     groupTitle: "leadership",
     groupSkills: [
       {
+        title: "Agile scrum",
+        level: skillLevel.expert,
+        experience: [2012,2013,2014,2015,2016,2017,2018,2019,2020,2021],
+      },
+      {
         title: "Team Lead",
         level: skillLevel.proficient,
         experience: 4,
-      },
-      {
-        title: "Agile scrum",
-        level: skillLevel.proficient,
-        experience: 7,
       },
       {
         title: "Competence Manager",

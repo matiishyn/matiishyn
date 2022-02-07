@@ -6,7 +6,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons"
 import { faAt } from "@fortawesome/free-solid-svg-icons"
 
-const START_YEAR = 2013
+export const START_YEAR = 2013
 
 export const info = {
   h3: "Hi, I'm Ivan Matiishyn",

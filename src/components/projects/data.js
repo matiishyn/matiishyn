@@ -3,6 +3,22 @@
 
 export const projects = [
   {
+    title: "EUROPE LARGEST ONLINE MARKETPLACE FOR PETS",
+    subTitle:
+      "...",
+    projectDescription:
+      "...",
+    customer: "...",
+    customerFlag: "sw",
+    duration: "12 months",
+    role: "Senior Software Engineer",
+    responsibilities: `...`,
+    team: "35 team members",
+    techStack:
+      "React.js, Next.js, TypeScript, Node.js, Apollo GraphQL, Koa.js, ElasticSearch, AWS",
+  },
+
+  {
     title: "PRODUCTIVITY TOOL WEB APP",
     subTitle:
       "...",

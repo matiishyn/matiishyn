@@ -1,10 +1,20 @@
 export const experience = [
   {
+    title: "Senior Software Engineer",
+    company: "Pet Media Group",
+    location: "Sweden, Stockholm, remote",
+    dates: "Apr 2021 – Present",
+    description: `
+      Working on a Europe largest online pet marketplace I help people to find 
+      a pet friend and a family member.
+      `,
+  },
+  {
     title: "Tech Lead Software Engineer",
     company: "EPAM Systems",
     location: "Ukraine, Lviv",
-    dates: "Dec 2019 – Present",
-    description: `a key developer at the biggest IT Company in Ukraine`,
+    dates: "Dec 2019 – Apr 2021",
+    description: `A key developer at the biggest IT Company in Ukraine`,
   },
   {
     title: "Senior Software Developer / Team Lead",
