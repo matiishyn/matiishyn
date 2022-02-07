@@ -19,12 +19,12 @@ export const skills = [
       {
         title: "HTML5/CSS3",
         level: skillLevel.expert,
-        experience: [2013,2014,2015,2016,2017,2018,2019,2020,2021],
+        experience: [2012,2013,2014,2015,2016,2017,2018,2019,2020,2021],
       },
       {
         title: "SASS/SCSS",
         level: skillLevel.expert,
-        experience: [2012,2013,2014,2015,2016,2017,2018,2019,2020,2021],
+        experience: [2013,2014,2015,2016,2017,2018,2019,2020,2021],
       },
       {
         title: "Bootstrap",
