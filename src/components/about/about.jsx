@@ -50,8 +50,9 @@ export const About = () => {
               ))}
             </div>
 
-            <a target="_blank" href="/ivan_matiishyn_resume.pdf" className="btn">
-              Download CV
+            <a target="_blank" 
+              href="https://matiishyn.notion.site/Ivan-Matiishyn-Engineering-Manager-16719d209a458071b4dbf713b5279605" className="btn">
+              Open Resume
             </a>
           </div>
         </div>
