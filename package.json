@@ -6,7 +6,9 @@
   "dependencies": {},
   "devDependencies": {},
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "echo 'ok'"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/matiishyn/matiishyn"
